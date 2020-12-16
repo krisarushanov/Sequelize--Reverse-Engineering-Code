@@ -27,13 +27,13 @@ Used to implement a login system by offering authentication mechanisms. LocalStr
 MODELS
 
 index.js 
-connects to database and imports users log in data 
-Require (‘fs’)  -  Uses File System module to call up the right file name
-using config.json for connections to database
-If/Else conditional - go to mySQL and call up username and password
-new Sequelize- creating a new entry
-.forEach - importing this file with this directory and joining with path 
-Associating model with database then exporting data base
+- connects to database and imports users log in data 
+- Require (‘fs’)  -  Uses File System module to call up the right file name
+- uses config.json for connections to database
+- If/Else conditional - go to mySQL and call up username and password
+- new Sequelize- creating a new entry
+- .forEach - importing this file with this directory and joining with path 
+- Associating model with database then exporting data base
 
 
 User.js
