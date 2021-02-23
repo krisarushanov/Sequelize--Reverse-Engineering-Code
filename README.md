@@ -12,7 +12,7 @@ SO THAT I can use it as a starting point for a new project
 ## MIDDLEWARE
 
 ### isAuthenticated.js 
-Checks to see if user is authenticated
+### Checks to see if user is authenticated
 Redirects incorrect route back to log in page
 Interacts with html-routes.js 
 =======
